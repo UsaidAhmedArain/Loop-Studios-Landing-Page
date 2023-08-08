@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=DM+Serif+Display&family=Epilogue:wght@200;400;700&family=Fira+Sans&family=IBM+Plex+Sans&family=Inter:wght@400;700&family=Josefin+Sans:wght@300&family=Karla:wght@400;700&family=Lexend+Deca&family=Manrope:wght@600;800&family=Montserrat&family=Poppins:ital,wght@0,700;1,400;1,800&family=Red+Hat+Text:wght@700&family=Roboto+Mono:wght@700&family=Space+Mono:wght@700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    background-image: url("images/desktop/image-hero.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 750px;
+}
+
+.navBar li{
+    list-style: none;
+}
+
+.navBar li a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
+}
+
+.text{
+    padding-top: 200px;
+}
+
+
+.para{
+    padding: 15px 15px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
+}
+
+.top{
+    margin-top: 20px;
+}
+
+.banner-heading{    
+   font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
+}
+
+.banner-para{    
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
+}
+
+#creations{
+ 
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;   
+}
+
+
+.btn{
+    border: 1px solid;
+    padding: 5px 30px;
+    border: 1px solid black;   
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: black;
+}
+
+.btn:hover{
+    border: none;
+    margin: 1px;
+    background-color: black;
+    color: white;
+}
+
+.social-icons{
+    cursor:pointer;
+}
